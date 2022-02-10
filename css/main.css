@@ -1,0 +1,9 @@
+body {
+    background-image: url("/fotos/achtergrond.jpg");
+    text-align: center;
+  }
+  
+  #inhoudhomepage {
+    color: black;
+    text-align: center;
+  }
