@@ -1,9 +1,137 @@
 body {
-  background-image: url("/fotos/achtergrond.jpg");
+  background-color: teal;
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  background-color: white;
+  width: 100%;
   text-align: center;
 }
 
 #inhoudhomepage {
   color: black;
   text-align: center;
+}
+
+
+
+div.parallax {
+  background-image: url("/afbeeldingen/shrek.jpg");
+
+  min-height: 600px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 100px;
+}
+
+div.textparallax {
+  color: red;
+  text-align: center;
+}
+
+.subscribtionpage {
+  display: flex;
+}
+
+
+article {
+    text-align: left; 
+  width: 40%;
+  margin: auto auto;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three columns of equal width */
+.columns {
+  width: 25%;
+  padding: 8px;
+  display: flex;
+  justify-content: space-around;
+  display: inline-block;
+}
+
+/* Style the list */
+.price {
+  list-style-type: none;
+  border: 1px solid;
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Add shadows on hover */
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+/* Pricing header */
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+/* List items */
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+  background-color: grey;
+}
+
+/* white list item */
+.price .grey {
+  background-color: whitesmoke;
+  font-size: 20px;
+}
+
+/* The "Sign Down" button */
+.buttonhero {
+  background-color: #1668ac;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* The "Sign Down" button */
+.buttonplus {
+  background-color: #dae74b;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* The "Sign Down" button */
+.buttonelite {
+  background-color: #79458c;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
 }
